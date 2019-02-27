@@ -1,0 +1,10 @@
+version: 2
+jobs:
+        build:
+                docker:
+                        - image: circleci/python
+                steps:
+                        - checkout
+                        - run: echo "A first hello"
+
+
